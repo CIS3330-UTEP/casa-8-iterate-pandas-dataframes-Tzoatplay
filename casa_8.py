@@ -16,3 +16,5 @@ for i, r in df.iterrows():
 #apply method
 
 print(df.apply(lambda row:row['date'], axis = 1))
+
+print('x')
